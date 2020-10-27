@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.review {
+  display: grid;
+  background-color: black;
+  color: whitesmoke;
+  padding: 15px;
+  justify-content: center;
+  align-content: center;
+}
+
+.review img {
+  height: 300px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.btn {
+  cursor: pointer;
+}

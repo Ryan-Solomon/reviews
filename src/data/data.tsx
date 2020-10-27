@@ -1,4 +1,12 @@
-const reviews = [
+type Data = {
+  id: number;
+  name: string;
+  job: string;
+  image: string;
+  text: string;
+};
+
+export const reviews: Data[] = [
   {
     id: 1,
     name: 'susan smith',
